@@ -1,0 +1,35 @@
+{
+    "name": "ignivis/termlink",
+    "description": "Allow users to log in with GitHub.",
+    "type": "flarum-extension",
+    "keywords": ["authentication"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ignivis",
+            "email": "ignivis@ignivis.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flarum/core/issues",
+        "source": "https://github.com/flarum/auth-github"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ignivis\\Termlink\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Termlink",
+            "icon": {
+                "name": "github",
+                "backgroundColor": "#eee",
+                "color": "#333"
+            }
+        }
+    }
+}
